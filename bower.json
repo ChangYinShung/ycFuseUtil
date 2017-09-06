@@ -1,0 +1,23 @@
+{
+  "name": "yc-fuse-util",
+  "description": "this is  customize for fuse template,please go to buy fuse template",
+  "main": "\"./dist/directive.css\"",
+  "authors": [
+    "YC",
+    "Fuse"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "fuse",
+    "template",
+    "angular"
+  ],
+  "homepage": "https://github.com/ChangYinShung/ycFuseUtil",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

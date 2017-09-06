@@ -1,0 +1,198 @@
+﻿.header-v1 {
+  height: 136px !important;
+  min-height: 136px !important;
+  max-height: 136px !important;
+  padding: 24px 0;
+}
+
+.header-v1 .h1 md-icon {
+  margin-right: 12px;
+}
+
+.header-v1 .product-count {
+  margin: 6px 0 0 36px;
+}
+
+.header-v1 .search {
+  position: relative;
+  padding-left: 24px;
+  max-width: 480px;
+}
+
+.header-v1 .search .search-icon {
+  margin: 0 -24px 0 0;
+}
+
+.header-v1 .search .search-input {
+  margin: 0 0 0 32px;
+  background: none;
+  font-size: 16px;
+  line-height: 40px;
+  height: 40px;
+  color: #FFFFFF;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  transition: border-color 300ms ease;
+}
+
+.header-v1 .search .search-input:focus {
+  border-color: white;
+}
+
+.header-v1 .search .search-input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-v2 {
+  height: 136px !important;
+  min-height: 136px !important;
+  max-height: 136px !important;
+  padding: 24px 0;
+}
+
+.header-v2 .h1 md-icon {
+  margin-right: 12px;
+}
+
+.header-v2 .order-count {
+  margin: 6px 0 0 36px;
+}
+
+.header-v2 .search {
+  position: relative;
+  padding-left: 24px;
+  max-width: 480px;
+}
+
+.header-v2 .search .search-icon {
+  margin: 0 -24px 0 0;
+}
+
+.header-v2 .search .search-input {
+  margin: 0 0 0 32px;
+  background: none;
+  font-size: 16px;
+  line-height: 40px;
+  height: 40px;
+  color: #FFFFFF;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  transition: border-color 300ms ease;
+}
+
+.header-v2 .search .search-input:focus {
+  border-color: white;
+}
+
+.header-v2 .search .search-input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-v3 {
+  padding: 24px 0 16px 0;
+}
+
+.header-v3 .logo .logo-icon {
+  margin: 0 16px 0 0;
+}
+
+.header-v3 .logo .logo-icon md-icon {
+  color: #FFFFFF;
+}
+
+.header-v3 .logo .logo-text {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.header-v3 .bottom {
+  margin-top: 8px;
+}
+
+.header-v3 .bottom .search {
+  height: 48px;
+  min-height: 48px;
+  padding: 8px 8px 8px 16px;
+  background: #FFFFFF;
+}
+
+.header-v3 .bottom .search .icon {
+  margin: 0;
+}
+
+.header-v3 .bottom .search input {
+  padding-left: 16px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.header-v3 .bottom .date-filter-box {
+  background-color: white;
+  height: 48px;
+  padding-left: 16px;
+  margin-left: 8px;
+}
+
+.header-v3 .bottom .date-filter-box .filter md-datepicker {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .custom-header.search-active.date-filter-active .top-bg {
+    height: 256px;
+  }
+  .custom-header.search-active.date-filter-active .center .header {
+    height: 192px;
+    min-height: 192px;
+    max-height: 192px;
+  }
+  .custom-header.search-active.date-filter-active .center .header .bottom .date-filter-box {
+    margin-top: 8px;
+  }
+  .custom-header .center .header .bottom .date-filter-box {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .custom-header.search-active .top-bg,
+  .custom-header.date-filter-active .top-bg {
+    height: 256px;
+  }
+  .custom-header.search-active .center .header-v3,
+  .custom-header.date-filter-active .center .header-v3 {
+    height: 192px;
+    min-height: 192px;
+    max-height: 192px;
+  }
+  .custom-header.search-active .center .header-v3 .bottom .date-filter-box,
+  .custom-header.date-filter-active .center .header-v3 .bottom .date-filter-box {
+    margin-top: 8px;
+  }
+  .custom-header.search-active.date-filter-active .top-bg {
+    height: 360px;
+  }
+  .custom-header.search-active.date-filter-active .center .header-v3 {
+    height: 296px;
+    min-height: 296px;
+    max-height: 296px;
+  }
+  .custom-header.search-active.date-filter-active .center .header-v3 .bottom .date-filter-box {
+    margin-top: 8px;
+  }
+  .custom-header .center .header-v3 .bottom .search-boxes {
+    min-height: 104px;
+  }
+  .custom-header .center .header-v3 .bottom .search-boxes .search:nth-child(2) {
+    margin: 8px 0 0 0;
+  }
+  .custom-header .center .header-v3 .bottom .date-filter-box {
+    min-height: 96px;
+    margin: 8px 0 0 0;
+  }
+  .custom-header .center .header-v3 .bottom .date-filter-box .filter {
+    min-height: 48px;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=directive.css.map */

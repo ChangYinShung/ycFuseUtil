@@ -1,0 +1,24 @@
+{
+  "name": "yc-fuse-util",
+  "version": "1.0.0",
+  "description": "this is  customize for fuse template,please go to buy fuse template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChangYinShung/ycFuseUtil.git"
+  },
+  "keywords": [
+    "fuse",
+    "template",
+    "angular"
+  ],
+  "author": "YC,Fuse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChangYinShung/ycFuseUtil/issues"
+  },
+  "homepage": "https://github.com/ChangYinShung/ycFuseUtil#readme"
+}
