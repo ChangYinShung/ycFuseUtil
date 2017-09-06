@@ -1,7 +1,8 @@
 {
   "name": "yc-fuse-util",
   "description": "this is  customize for fuse template,please go to buy fuse template",
-  "main": "\"./dist/directive.css\"",
+  "main": "./dist/directive.css",
+  "version": "1.0",
   "authors": [
     "YC",
     "Fuse"
